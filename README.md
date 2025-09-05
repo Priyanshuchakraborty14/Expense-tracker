@@ -7,17 +7,22 @@ Data is stored in **localStorage**.
 ---
 
 ## Features
-- ➕ Add, delete, and clear all expenses  
-- 📅 Auto date added for each expense  
-- 💾 Persistent storage using LocalStorage  
+-  Add, delete, and clear all expenses  
+-  Auto date added for each expense  
+-  Persistent storage using LocalStorage  
+-  Search by expense name  
+-  Filter by category  
+-  Sort by amount and date  
+-  Export expenses to CSV  
 
 ## Tech Stack
 - **Frontend**: HTML, CSS, JavaScript  
 - **Data Storage**: LocalStorage  
+**Export/Analysis**: CSV (can be opened in Excel or Python Pandas)  
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 expense-tracker/
 │── index.html # Main HTML
 │── style.css # Styling
@@ -25,9 +30,5 @@ expense-tracker/
 │── README.md # Documentation
 │── .gitignore # Ignore unnecessary files
 
-I am working on it.I want to add 
-- Search by expense name  
-- Filter by category  
-- Sort by amount and date  
-- Export expenses to CSV  
+I am working on it.I want to add
 And add analysis through python using libraries like pandas and numpy.

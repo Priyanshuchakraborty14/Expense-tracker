@@ -20,6 +20,31 @@
       <option>Miscellaneous...</option>
     </select>
     <button id="addBtn">Add Expense</button>
+    <button id="clearBtn">Clear All</button>
+  </div>
+
+  <div class="controls">
+    <label for="filterCategory">Filter by Category:</label>
+    <select id="filterCategory">
+      <option value="all">All</option>
+      <option value="Food🍜">Food🍜</option>
+      <option value="Education📚">Education📚</option>
+      <option value="Travel🚌">Travel🚌</option>
+      <option value="Shopping🛒">Shopping🛒</option>
+      <option value="Miscellaneous...">Miscellaneous...</option>
+    </select>
+
+    <label for="sortBy">Sort by:</label>
+    <select id="sortBy">
+      <option value="default">Default</option>
+      <option value="amountAsc">Amount ↑</option>
+      <option value="amountDesc">Amount ↓</option>
+      <option value="dateAsc">Date ↑</option>
+      <option value="dateDesc">Date ↓</option>
+    </select>
+
+    <label for="searchInput">Search:</label>
+    <input type="text" id="searchInput" placeholder="Search by name...">
   </div>
 
   <h2>Total: ₹ <span id="total">0</span></h2>
@@ -31,10 +56,13 @@
         <th>Amount</th>
         <th>Category</th>
         <th>Date</th>
+        <th>Action</th>
       </tr>
     </thead>
     <tbody id="expenseTable"></tbody>
   </table>
+
+  <button id="downloadBtn">Download CSV</button>
 
   <script src="script.js"></script>
 </body>
