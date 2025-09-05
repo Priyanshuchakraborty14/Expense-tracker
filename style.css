@@ -70,11 +70,11 @@ h1 {
 }
 
 #addBtn {
-  background: #167771;
+  background: #23c5b7;
   color: #fff;
   box-shadow: 0 4px 12px #23c5b7;
 }
-#addBtn:hover { background: #23c5b7; transform: scale(1.05); }
+#addBtn:hover { background: #167771; transform: scale(1.05); }
 #addBtn:active { transform: scale(0.95); }
 
 #clearBtn {
