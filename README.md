@@ -30,5 +30,4 @@ expense-tracker/
 │── README.md # Documentation
 │── .gitignore # Ignore unnecessary files
 
-I am working on it.I want to add
-And add analysis through python using libraries like pandas, numpy and matplotlib.
+I am working on it.I want to add analysis through python using libraries like pandas, numpy and matplotlib.
